@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>T-SHIRT DESIGN</h1>
+    <div id="container">
+        <div id="left">
+            <h2>
+                Design shirt with own choice
+            </h2>
+        </div>
+        <div id="right">
+          
+            <div class="back" id="back"></div>
+            <div class="col">
+                <button class="red" onclick="change1()">red</button>
+                <button class="yellow" onclick="change2()">grey</button>
+                <button class="white" onclick="change3()">white</button>
+                <button class="black" onclick="change4()">black</button>
+                <button class="blue" onclick="change5()">blue</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function change1(){
+        document.getElementById("back").style.backgroundImage="url('images/brown.png')"
+    }
+    function change2(){
+        document.getElementById("back").style.backgroundImage="url('images/yellow.png')"
+    }
+    function change3(){
+        document.getElementById("back").style.backgroundImage="url('images/white.png')"
+    } function change4(){
+        document.getElementById("back").style.backgroundImage="url('images/ll.png')"
+    } function change5(){
+        document.getElementById("back").style.backgroundImage="url('images/green.png')"
+    }
+</script>
+</html>
